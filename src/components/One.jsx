@@ -1,3 +1,5 @@
+// Simple Hello World! program
+
 import React from 'react'
 
 const One = () => {
