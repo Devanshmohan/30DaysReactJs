@@ -7,3 +7,5 @@ Projects :
 3. Create a form that takes user input and displays it in real time
 4. Create a component to display a list of items
 5. Create a basic toggle switch component
+6. Create a timer which counts down from a specified timer. 
+
