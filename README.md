@@ -8,4 +8,6 @@ Projects :
 4. Create a component to display a list of items
 5. Create a basic toggle switch component
 6. Create a timer which counts down from a specified timer. 
+7. Create a component that fetches data from API and displays it.
+
 
