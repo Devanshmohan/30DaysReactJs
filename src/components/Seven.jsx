@@ -1,28 +1,29 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react'
+// A component that fetches data from API and displays it
+
+import { useEffect, useState } from "react"
+
 
 export const Seven = () => {
-    const[data, setData] = useState([]);
 
-    useEffect(() => {
-     fetch("https://jsonplaceholder.typicode.com/photos")
-     .then((response)=>response.json())
-     .then((info)=>setData(info))
-    }, [])
-    
+  const [data,setData] = useState([]);
 
-   
+useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/todos')
+    .then((res)=>res.json())
+    .then((data)=>setData(data.slice(0,10)));
+},[])
+console.log(data);
   return (
     <div>
-   {
-    data ? (<ul>
-        {data.map((item, index)=>{
-           return <li key={index}><p>{item.title}</p>
-            <img  src={item.url} alt="" />
-           </li>
-})}
-    </ul>) :
-    (<p>Loading....</p>)
-   }
+         <ul>
+        {data.map((item)=>(
+        
+        <li key={item.id}>{item.title}</li>  
+))}
+</ul>
+
     </div>
   )
 }
+
+
