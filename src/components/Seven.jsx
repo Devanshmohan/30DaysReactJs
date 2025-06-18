@@ -1,5 +1,5 @@
 // A component that fetches data from API and displays it
-
+ 
 import { useEffect, useState } from "react"
 
 
