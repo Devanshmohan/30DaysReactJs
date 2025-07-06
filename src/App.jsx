@@ -7,6 +7,7 @@ import Five from './components/Five'
 import { Six } from './components/Six'
 import { Seven } from './components/Seven'
 import { Eight } from './components/Eight'
+import Nine from './components/Nine'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
      {/* <Five /> */}
      {/* <Six /> */}
      {/* <Seven /> */}
-     <Eight/>
+     {/* <Eight/> */}
+     <Nine />
     </div>
   )
 }

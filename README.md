@@ -10,4 +10,5 @@ Projects :
 6. Create a timer which counts down from a specified timer. 
 7. Create a component that fetches data from API and displays it.
 8. Create a todo list with add and delete functionality.
+9. Create a background changer component.
 
