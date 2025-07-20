@@ -11,4 +11,5 @@ Projects :
 7. Create a component that fetches data from API and displays it.
 8. Create a todo list with add and delete functionality.
 9. Create a background changer component.
+10. Introduce routes in navbar.
 
