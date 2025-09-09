@@ -12,4 +12,5 @@ Projects :
 8. Create a todo list with add and delete functionality.
 9. Create a background changer component.
 10. Introduce routes in navbar.
+11. Create a component that will display Random Quotes every time it is rendered.
 
